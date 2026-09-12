@@ -9,7 +9,7 @@ LOGIN_SYSTEM = bool(os.environ.get('LOGIN_SYSTEM', True)) # True or False
 
 if LOGIN_SYSTEM == False:
     # if login system is False then fill your tg account session below 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQFitqsArVd9E2GvDS8gzM-IN_kBxoiuq-HoOgmIfTthObHwnitp08egTE-_NlLVnPR_BMZQOf2tmijbS8n-y0MMPIb50Zr32WUTMvN72njeH-xbJN0Sm5weXowEKM90AggC_8cuYYDoS9cQaJ97y5i07S9I-CfQS1LLUkT5wYskIzxTCMLaxHzkAWklvpTAxsVGZiKkGbKc4nD6cSkubJb1tqptaEfh-IX6o-LBAKzhtEJK7341cVGhg0IRG4G1VBImYfdN66FrBGpyD4AsYd_RMGZ2gCdwuneCdlXbCPj9rV6SkWmgWozvUxnXEcBqcUb7dxhxYgS6hX6kIF9HqHexePUKQQAAAABx3OKtAA")
 else:
     STRING_SESSION = None
 
